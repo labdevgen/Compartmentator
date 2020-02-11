@@ -4,7 +4,7 @@ import pandas as pd
 from shared import get_bin_size
 from clustering2compartments import get_compartments
 
-fname = "Aste_VARYA_comb_allValidPairs.hic.10000.oe.10MB"
+fname = "AcolNg_V3.1000.hic.100000.oe"
 data = pd.read_csv(
     fname,
     sep="\t",
